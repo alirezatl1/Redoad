@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="./popup.css">
+</head>
+<body>
+  <!-- Header Logo -->
+  <header>
+    <div id="logo"></div>
+  </header>
+
+  <!-- Power Button / Details -->
+  <div class="contents">
+    <div id="power_button"></div>
+
+    <div id="details" class="disabled">
+      <!-- Current Tab URL -->
+      <h2 id="current_tab_url"></h2>
+
+      <!-- Notice -->
+      <h5 id="status"></h5>
+    </div>
+
+    <div id="block_information">
+      <p>Blocked Ads:<span id="total_on_page_blocks">N/A</span></p>
+      <p>Total:<span id="total_blocks">N/A</span></p>
+
+      <button disabled="" id="hide_element"></button>
+    </div>
+
+  </div>
+
+  <script src="./popup.js"></script>
+</body>
+</html>
